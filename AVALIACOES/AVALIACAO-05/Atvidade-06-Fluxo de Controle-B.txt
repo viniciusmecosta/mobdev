@@ -1,0 +1,148 @@
+VINICIUS DE MENEZES COSTA
+Prova de Fluxo de Controle em Dart
+
+01) O que é Fluxo de Controle em Dart?
+
+    RESPOSTA:
+        É uma extrutura que executa determinado codigo caso a condicao seja verdadeira ou caso a condicao seja falsa.
+
+02) Quais são as três estruturas básicas de Fluxo de Controle em Dart?
+
+    RESPOSTA:
+        If, if-else e switch.
+
+03) O que é uma instrução if em Dart?
+
+    RESPOSTA:
+        Caso a condicao seja verdadeira executa determinado codigo dentro da "{}"
+
+04) O que é uma instrução if-else em Dart?
+
+    RESPOSTA:
+        Caso a condicao seja verdadeira executa determinado codigo e caso a condicao seja falsa executa outro codigo
+
+05) O que é uma instrução switch em Dart?
+
+    RESPOSTA:
+        É uma instucao onde é determinado n casos que quando o caso é satisfeito ele executa o codigo.
+
+06) Como usar a instrução switch em Dart?
+
+    RESPOSTA:
+        switch (a) {
+            case 1:
+                //codigo
+                break;
+            case 2:
+                //codigo
+                break;
+            default:
+                //codigo
+                break;
+            }
+
+
+07) O que é uma instrução for em Dart?
+
+    RESPOSTA:
+        É uma instrucao que inicia uma variavel, estabelece uma condicao e determina um incremento, caso a condicao seja verdadeira é executado o codigo e depois acontece o incremento.
+
+08) Como usar a instrução for em Dart?
+
+    RESPOSTA:
+        for (int n = 1; numero < 10; numero++){
+            //codigo
+            }
+
+09) O que é uma instrução while em Dart?
+
+    RESPOSTA:
+        É uma instruçao que executa determinado codigo enquanto a condicao for verdadeira.
+
+10) Como usar a instrução while em Dart?
+
+    RESPOSTA:
+        while(n>10){
+            //codigo
+        }
+
+11) O que é uma instrução do-while em Dart?
+
+    RESPOSTA:
+        É uma instruçao que executa determinado codigo uma vez e depois executa enquanto a condicao for verdadeira.
+
+12) Como usar a instrução do-while em Dart?
+
+    RESPOSTA:
+        do {
+            //codigo
+        } 
+        while (numero <= 10){
+            //codigo
+        }
+
+13) O que é uma instrução break em Dart?
+
+    RESPOSTA:
+        É uma instrucao que encerra a execucao do bloco e pula para o proximo
+
+14) Como usar a instrução break em Dart?
+
+    RESPOSTA:
+        switch (a) {
+            case 1:
+                //codigo
+                break;
+            case 2:
+                //codigo
+                break;
+            }
+
+
+15) O que é uma instrução continue em Dart?
+
+    RESPOSTA:
+        É uma intrucao que encerrar o bloco de código atual e continuar a execução no bloco anterior.
+
+16) Como usar a instrução continue em Dart?
+
+    RESPOSTA:
+        switch (a) {
+            case 1:
+                //codigo
+                continue;
+            case 2:
+                //codigo
+                continue;
+            }
+
+
+17) O que é uma instrução try-catch em Dart?
+
+    RESPOSTA:
+        É uma instruçao para o tratamento de excessoes, no try ele executa um codigo e caso resulte em uma excessao ele armazena a excessao no catch.
+
+18) Como usar a instrução try-catch em Dart?
+
+    RESPOSTA:
+        try {
+            //codigo
+        } catch (e) {
+            print(e);
+        }
+
+19) O que é uma instrução finally em Dart?
+
+    RESPOSTA:
+        É uma instrucao que executa indepentemente da captura de uma excessao no catch.
+
+20) Como usar a instrução finally em Dart?
+
+    RESPOSTA:
+        try {
+            //codigo
+        } catch (e) {
+            print(e);
+        }finally{
+            //codigo
+        }
