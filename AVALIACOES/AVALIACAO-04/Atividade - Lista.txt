@@ -1,28 +1,36 @@
 Responda às seguintes questões:
 
 1) O que é uma lista em Dart?
+
     R: Ela funciona como um vetor, é o conjunto de valores que possuem uma ordem, para cada valor existe um indice.
 
 2) Como criar uma lista vazia em Dart?
+
     R: var lista = [];
 
 3) Como criar uma lista com elementos em Dart?
+
     R: var lista = [1,2,3,4,5];
+
 4) Qual a diferença entre uma lista e um conjunto em Dart?
 
 
 5) Como acessar um elemento específico de uma lista em Dart?
+
     R: Colocando o indice na chamada da lista
     Exp: lista[0];
 
 6) Como adicionar um elemento ao final de uma lista em Dart?
+
     R: Colocando entre os parenteses o elemente que deseja adiconar no final da lista
     Exp.: lista.add(2);
 
 7) Como inserir um elemento em uma posição específica de uma lista em Dart?
+
     R: Colocando entre cochetes o indice e o que deseja adiconar na posicao específica da lista apos o "=" , Exp.: lista[0] = 3;
 
 8) Como remover um elemento de uma lista em Dart?
+
     R: Para remover um elemente em uma posicao especifica é necessario utilizar o removeAt, colocando o indice entre os parenteses, Exp.: lista.removeAt(2);
 
 9) Como verificar se uma lista contém um determinado elemento em Dart?
@@ -32,24 +40,31 @@ Responda às seguintes questões:
 11) Como ordenar uma lista em ordem decrescente em Dart?
 
 12) Como copiar uma lista em Dart?
+
     R: Utilizando o from, ele coloca todos os elementos de determinada lista na nova lista, Exp.: lista2 = new List.from(lista);
 
 13) Como verificar se duas listas são iguais em Dart?
 
 14) Como criar uma lista a partir de outra lista em Dart?
+
     R: Utilizando o from, ele coloca todos os elementos de determinada lista na nova lista 
     Exp.: 
     lista2 = new List.from(lista);
+
 15) Como transformar uma lista em uma lista de strings em Dart?
+
     R: Utilizando o .toString
     Exp.: 
     lista2= lista.toString();
+
 16) Como calcular a soma dos elementos de uma lista em Dart?
+
     R: Utilizando o reduce
     Exp.: 
     var somalista = lista.reduce((accumulated, element) => accumulated + element);
 
 17) Como calcular a média dos elementos de uma lista em Dart?
+
     R: Utilizando o reduce para fazer a soma dos elemente e o length para saber quantos elementos tem na lista, 
     Exp.: 
     var somalista = lista.reduce((accumulated, element) => accumulated + element);
@@ -57,6 +72,8 @@ Responda às seguintes questões:
     double media = somalista/a;
 
 18) Como calcular o valor máximo e mínimo de uma lista em Dart?
+
+    R:
     Exp.: 
     menor=lista[0];
     maior=lista[0];
@@ -70,7 +87,10 @@ Responda às seguintes questões:
     }
 
 19) Como contar quantas vezes um elemento aparece em uma lista em Dart?
-    elmento="x";
+
+    R:
+    Exp.: 
+    elemento="x";
     int repeticao=0;
     for(int n = 0; n<lista.length; n++){
         if (elemento==lista[n]){
